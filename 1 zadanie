@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+int i,j,x,y;
+int arr[2][2];
+for (i=0;i<2;i++)
+
+ for (j=0;j<2;j++)
+
+ {
+
+ printf("Vvedite element [%d,%d]\n", i+1, j+1);
+
+ scanf("%f",&b[i][j]);
+
+ }
+for (x=0;x<2;i++)
+{
+ s=0;
+ for (y=0;y<2;j++)
+ s+=b[i][j];
+ printf("Summa elementov %d-stroki matrici = %.2f\n", i+1, s);
+ }
+ 
