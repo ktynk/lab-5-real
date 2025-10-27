@@ -16,9 +16,9 @@ for (i=0;i<2;i++)
  }
 for (x=0;x<2;i++)
 {
- s=0;
+int s=0;
  for (y=0;y<2;j++)
- s+=b[i][j];
- printf("Summa elementov %d-stroki matrici = %.2f\n", i+1, s);
+ s+=arr[x][y];
+ printf("Summa elementov %d-stroki matrici = %.2f\n", x+1, s);
  }
  
