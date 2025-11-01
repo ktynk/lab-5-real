@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+	int arr[2][2];
+	for (int i = 0; i < 2; i++) 
+	{
+		for (int z = 0; z < 2; z++)
+		{
+			cout << "vvedite element pod indeksami: " << i << " " << z << endl;
+			cin >> arr[i][z];
+		}
+	}
+	for (int i = 0; i < 2; i++) 
+	{
+		int summa = 0;
+		for (int z = 0; z < 2; z++) 
+		{
+			if (arr[i][z] < 0) {
+				z = 2;
+				summa = 0;
+			}
+			else
+			{
+				summa += arr[i][z];
+			}
+		}
+		if (summa != 0) {
+			cout <<"summa ne otricatelnih: "<< summa << endl;
+		}
+	}
+	
+	
+	return 0;
+   
+}
