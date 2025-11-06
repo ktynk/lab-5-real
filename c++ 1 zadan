@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
 
+    int b,d;
 	int arr[2][2];
 	for (int i = 0; i < 2; i++) 
 	{
@@ -28,10 +29,16 @@ int main()
 		}
 		if (summa != 0) {
 			cout <<"summa ne otricatelnih: "<< summa << endl;
+			
 		}
 	}
-	
-	
-	return 0;
-   
-}
+
+     b =arr[1][1] +arr[0][1];
+	 d = arr[0][0]+arr[1][0];
+	 if(b<d)
+	     cout<<"naimenshi "<<b;
+	     else if (b>d)
+	     cout<<"naimenshi "<<d;
+	     else 
+	     cout<<"error";
+	 }
