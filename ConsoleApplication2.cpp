@@ -21,6 +21,7 @@ int main()
             if (arr[i][z] > 0)
             {
                 polozitelni = true;
+                break;
             }
         }
         if (polozitelni)
@@ -46,3 +47,4 @@ int main()
     }
     cout << "Kolichestvo stroc polozitelnih: " << count << endl;
 }
+
