@@ -19,7 +19,7 @@ int main()
 		for (int z = 0; z < 2; z++) 
 		{
 			if (arr[i][z] < 0) {
-				z = 2;
+				z = 2;//=break;
 				summa = 0;
 			}
 			else
